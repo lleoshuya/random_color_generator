@@ -5,6 +5,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    background: #bccde5;
+}
+
 .btn {
     background: none;
     color: #111;
@@ -16,6 +20,11 @@
     outline: none;
     display: block;
     border: 2px solid #111111;
+}
+
+.btn:hover {
+    background: #4B6584;
+    color: #FFF;
 }
 
 .container {
